@@ -1,0 +1,8 @@
+﻿@page "/PolicyPage"
+@attribute [Authorize(Policy = "AdminPolicy")]
+
+<h3>Policy Page - <span class="text-danger">This page is for ADMINISTRATORS ONLY</span></h3>
+
+@code {
+
+}
